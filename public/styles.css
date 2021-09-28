@@ -1,4 +1,4 @@
-/*! tailwindcss v2.2.15 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v2.2.16 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -632,6 +632,103 @@ video {
   .container {
     max-width: 1536px;
   }
+}
+
+.my-image {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 9999px
+}
+
+.my-custom-btn {
+  cursor: pointer;
+  --tw-bg-opacity: 1;
+  background-color: rgba(252, 165, 165, var(--tw-bg-opacity))
+}
+
+.my-custom-btn:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
+}
+
+.my-custom-btn {
+  padding: 0.25rem;
+}
+
+.my-custom-btn:hover {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.btn {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center
+}
+
+.my-header {
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(16, 185, 129, var(--tw-text-opacity))
+}
+
+.my-paragraph {
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1rem
+}
+
+.footer {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  --tw-bg-opacity: 1;
+  background-color: rgba(99, 102, 241, var(--tw-bg-opacity));
+  padding: 1rem;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity))
+}
+
+.contact-card {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  padding: 1.25rem
+}
+
+.rounded-card {
+  border-radius: 0.5rem;
+  padding: 1rem
+}
+
+.my-header-one {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  font-style: italic;
+  --tw-text-opacity: 1;
+  color: rgba(30, 64, 175, var(--tw-text-opacity))
+}
+
+.contacts-background {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 2rem;
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgba(96, 165, 250, var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgba(254, 202, 202, var(--tw-bg-opacity))
 }
 
 .sr-only {
@@ -188378,3 +188475,4 @@ video {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+

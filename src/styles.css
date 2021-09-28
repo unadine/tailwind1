@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .my-image {
+        @apply rounded-full mx-auto h-20 w-20 mt-4
+    }
+    .my-custom-btn {
+        @apply bg-red-300 hover:bg-blue-500 hover:text-white cursor-pointer p-1
+    }
+    .btn {
+        @apply flex justify-center mt-4 
+    }
+    .my-header {
+        @apply text-green-500 text-center
+
+    }
+    .my-paragraph {
+        @apply text-xs text-center px-4 mt-4
+    }
+    .footer {
+        @apply bg-indigo-500 flex justify-between p-4 text-white mt-8 mx-4
+    }
+    .contact-card {
+        @apply bg-white p-5 mx-10
+    }
+    .rounded-card {
+        @apply p-4 rounded-lg
+    }
+    .my-header-one {
+        @apply italic font-semibold text-2xl text-blue-800 text-center
+    }
+    .contacts-background {
+        @apply mx-20 border-2 border-blue-400 bg-red-200 mt-8
+    }
+}
+
